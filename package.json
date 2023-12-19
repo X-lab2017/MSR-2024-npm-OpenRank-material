@@ -1,0 +1,26 @@
+{
+  "name": "msr-2024-npm-openrank-material",
+  "version": "1.0.0",
+  "description": "This repo contains the supplementary material for NPM ecology dataset.",
+  "main": "src/openrank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X-lab2017/MSR-2024-npm-OpenRank-material.git"
+  },
+  "author": "FrankZhao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/X-lab2017/MSR-2024-npm-OpenRank-material/issues"
+  },
+  "homepage": "https://github.com/X-lab2017/MSR-2024-npm-OpenRank-material#readme",
+  "dependencies": {
+    "neo4j-driver": "^5.15.0",
+    "parse-neo4j": "^0.6.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5"
+  }
+}

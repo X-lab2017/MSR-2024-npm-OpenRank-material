@@ -29,4 +29,4 @@ The data set and code relies on the following environment:
 
 ### Commands
 
-For proper Neo4j database, uses `tsc && lib/openrank.js` to run the source code.
+For proper Neo4j database, uses `tsc && src/openrank.js` to run the source code.

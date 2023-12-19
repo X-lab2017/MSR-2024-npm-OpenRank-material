@@ -29,4 +29,4 @@
 
 ### 运行命令
 
-设置好对应的 Neo4j 数据库地址，使用 `tsc && node lib/openrank.js` 命令来运行该代码。
+设置好对应的 Neo4j 数据库地址，使用 `tsc && node src/openrank.js` 命令来运行该代码。
