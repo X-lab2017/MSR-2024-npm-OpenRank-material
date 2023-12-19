@@ -1,1 +1,138 @@
-[[{"nodePropertiesWritten":1829904,"ranIterations":4,"didConverge":true,"writeMillis":1885,"postProcessingMillis":0,"createMillis":0,"computeMillis":1947,"configuration":{"maxIterations":40,"writeConcurrency":4,"initValueProperty":"initValue","relationshipWeightProperty":"weight","suffix":"_1","isAsynchronous":false,"concurrency":4,"writeProperty":"","enableLog":false,"partitioning":"RANGE","nodeLabels":["*"],"sudo":false,"relationshipTypes":["*"],"mutateProperty":"","tolerance":0.001,"retentionFactorProperty":"retentionFactor","username":null}}],[{"nodePropertiesWritten":1829904,"ranIterations":13,"didConverge":true,"writeMillis":4160,"postProcessingMillis":0,"createMillis":0,"computeMillis":4106,"configuration":{"maxIterations":40,"writeConcurrency":4,"initValueProperty":"initValue","relationshipWeightProperty":"weight","suffix":"_2","isAsynchronous":false,"concurrency":4,"writeProperty":"","enableLog":false,"partitioning":"RANGE","nodeLabels":["*"],"sudo":false,"relationshipTypes":["*"],"mutateProperty":"","tolerance":0.001,"retentionFactorProperty":"retentionFactor","username":null}}],[{"nodePropertiesWritten":1829904,"ranIterations":13,"didConverge":true,"writeMillis":3012,"postProcessingMillis":0,"createMillis":0,"computeMillis":3886,"configuration":{"maxIterations":40,"writeConcurrency":4,"initValueProperty":"initValue","relationshipWeightProperty":"weight","suffix":"_3","isAsynchronous":false,"concurrency":4,"writeProperty":"","enableLog":false,"partitioning":"RANGE","nodeLabels":["*"],"sudo":false,"relationshipTypes":["*"],"mutateProperty":"","tolerance":0.001,"retentionFactorProperty":"retentionFactor","username":null}}],[{"nodePropertiesWritten":1829904,"ranIterations":13,"didConverge":true,"writeMillis":4124,"postProcessingMillis":0,"createMillis":0,"computeMillis":3740,"configuration":{"maxIterations":40,"writeConcurrency":4,"initValueProperty":"initValue","relationshipWeightProperty":"weight","suffix":"_4","isAsynchronous":false,"concurrency":4,"writeProperty":"","enableLog":false,"partitioning":"RANGE","nodeLabels":["*"],"sudo":false,"relationshipTypes":["*"],"mutateProperty":"","tolerance":0.001,"retentionFactorProperty":"retentionFactor","username":null}}]]
+[
+  [
+    {
+      "nodePropertiesWritten": 1829904,
+      "ranIterations": 4,
+      "didConverge": true,
+      "writeMillis": 1885,
+      "postProcessingMillis": 0,
+      "createMillis": 0,
+      "computeMillis": 1947,
+      "configuration": {
+        "maxIterations": 40,
+        "writeConcurrency": 4,
+        "initValueProperty": "initValue",
+        "relationshipWeightProperty": "weight",
+        "suffix": "_1",
+        "isAsynchronous": false,
+        "concurrency": 4,
+        "writeProperty": "",
+        "enableLog": false,
+        "partitioning": "RANGE",
+        "nodeLabels": [
+          "*"
+        ],
+        "sudo": false,
+        "relationshipTypes": [
+          "*"
+        ],
+        "mutateProperty": "",
+        "tolerance": 0.001,
+        "retentionFactorProperty": "retentionFactor",
+        "username": null
+      }
+    }
+  ],
+  [
+    {
+      "nodePropertiesWritten": 1829904,
+      "ranIterations": 13,
+      "didConverge": true,
+      "writeMillis": 4160,
+      "postProcessingMillis": 0,
+      "createMillis": 0,
+      "computeMillis": 4106,
+      "configuration": {
+        "maxIterations": 40,
+        "writeConcurrency": 4,
+        "initValueProperty": "initValue",
+        "relationshipWeightProperty": "weight",
+        "suffix": "_2",
+        "isAsynchronous": false,
+        "concurrency": 4,
+        "writeProperty": "",
+        "enableLog": false,
+        "partitioning": "RANGE",
+        "nodeLabels": [
+          "*"
+        ],
+        "sudo": false,
+        "relationshipTypes": [
+          "*"
+        ],
+        "mutateProperty": "",
+        "tolerance": 0.001,
+        "retentionFactorProperty": "retentionFactor",
+        "username": null
+      }
+    }
+  ],
+  [
+    {
+      "nodePropertiesWritten": 1829904,
+      "ranIterations": 13,
+      "didConverge": true,
+      "writeMillis": 3012,
+      "postProcessingMillis": 0,
+      "createMillis": 0,
+      "computeMillis": 3886,
+      "configuration": {
+        "maxIterations": 40,
+        "writeConcurrency": 4,
+        "initValueProperty": "initValue",
+        "relationshipWeightProperty": "weight",
+        "suffix": "_3",
+        "isAsynchronous": false,
+        "concurrency": 4,
+        "writeProperty": "",
+        "enableLog": false,
+        "partitioning": "RANGE",
+        "nodeLabels": [
+          "*"
+        ],
+        "sudo": false,
+        "relationshipTypes": [
+          "*"
+        ],
+        "mutateProperty": "",
+        "tolerance": 0.001,
+        "retentionFactorProperty": "retentionFactor",
+        "username": null
+      }
+    }
+  ],
+  [
+    {
+      "nodePropertiesWritten": 1829904,
+      "ranIterations": 13,
+      "didConverge": true,
+      "writeMillis": 4124,
+      "postProcessingMillis": 0,
+      "createMillis": 0,
+      "computeMillis": 3740,
+      "configuration": {
+        "maxIterations": 40,
+        "writeConcurrency": 4,
+        "initValueProperty": "initValue",
+        "relationshipWeightProperty": "weight",
+        "suffix": "_4",
+        "isAsynchronous": false,
+        "concurrency": 4,
+        "writeProperty": "",
+        "enableLog": false,
+        "partitioning": "RANGE",
+        "nodeLabels": [
+          "*"
+        ],
+        "sudo": false,
+        "relationshipTypes": [
+          "*"
+        ],
+        "mutateProperty": "",
+        "tolerance": 0.001,
+        "retentionFactorProperty": "retentionFactor",
+        "username": null
+      }
+    }
+  ]
+]

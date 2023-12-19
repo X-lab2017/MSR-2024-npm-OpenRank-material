@@ -169,9 +169,9 @@ YIELD graphName AS graph, nodeCount AS nodes, relationshipCount AS rels`;
     logger.info(`Calculate all openrank done. Total outer iterations: ${factorArray.length}`);
 
     // write back the calculation results
-    writeFileSync('data/result.json', JSON.stringify(resultArray));
+    writeFileSync('data/result.json', JSON.stringify(resultArray, null, 2));
     // write back the factors
-    writeFileSync('data/factors.json', JSON.stringify(factorArray));
+    writeFileSync('data/factors.json', JSON.stringify(factorArray, null, 2));
   };
 
   logger.info('Start to calculate the OpenRank of NPM ecology.');
