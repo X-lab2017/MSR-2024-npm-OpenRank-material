@@ -15,17 +15,6 @@ import { readFileSync, writeFileSync } from 'fs';
 
   const userFactorMap = new Map<string, Factors>();
 
-  // preprocess set the initial value of each node in the database.
-  const preprocess = async () => {
-    logger.info('Run preproecss to calculate nodes\' initial values.');
-    // set repo initial value
-    await neo4j.runQuery('MATCH (r:Repo) SET r.initial=(ceil(log(r.star + 1)) + 1)/10;');
-    // set user initial value
-    const userNotNullNumber = ['email', 'location', 'bio', 'company'].map(p => `(CASE u.${p} WHEN NULL THEN 0 ELSE 1 END)`).join('+');
-    await neo4j.runQuery(`MATCH (u:User) SET u.initial=(0.6 + (${userNotNullNumber})/10.0)`);
-    logger.info('Preprocess done.');
-  };
-
   // calculate the OpenRank for each step
   const calculateStep = async (factors: Factors, step: number) => {
     const graphName = `npm_graph_${step}`;
@@ -175,7 +164,6 @@ YIELD graphName AS graph, nodeCount AS nodes, relationshipCount AS rels`;
   };
 
   logger.info('Start to calculate the OpenRank of NPM ecology.');
-  await preprocess();
   await calculateOpenrank();
   neo4j.close();
   logger.info('Calculate OpenRank for NPM ecology finished.');
