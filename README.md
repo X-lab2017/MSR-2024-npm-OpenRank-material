@@ -22,7 +22,7 @@ The data processes are:
 
 The data set and code relies on the following environment:
 
-- Neo4j graph database community edition 3.4.10.
+- Neo4j graph database community edition 4.3.10.
 - Neo4j GDS libraries 1.7.3.
 - OpenRank GDS plugin 1.7.3.
 - Node.js 14.3.0.
